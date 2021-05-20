@@ -1,0 +1,41 @@
+{
+    "code": 200,
+    "msg": "查询成功",
+    "data": {
+        "total": 248,
+        "pageSize": 13,
+        "page": 1,
+        "items": [{
+                "id": 417,
+                "title": "上海爱建融资租赁有限公司简介",
+                "context": "test",
+                "describeArticle": "",
+                "imageName": null,
+                "programaId": 54,
+                "priority": 0,
+                "status": 0,
+                "multimedia": null,
+                "created": "2021-05-11 18:00:00",
+                "coverImage": "", 
+                "flag": null,
+                "columnNumber": null,
+                "position": null,
+                "updated": null,
+                "checkStatus": null,
+                "sendUid": null,
+                "sortIndex": null,
+                "goodArticle": null,
+                "articleSource": "",
+                "sendName": null,
+                "originalAuthor": "宋丽",
+                "uname": "秦思雨",
+                "proArr": null,
+                "templateId": null,
+                "temp": null,
+                "readCount": 0,
+                "pdfUrl": null
+            }
+
+        ]
+    }
+}

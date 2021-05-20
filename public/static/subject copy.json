@@ -1,0 +1,95 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "data": [{
+      "id": 1,
+      "name": "开机屏幕",
+      "english_name": "openscreen",
+      "description": "首页",
+      "position": null,
+      "flag": 0,
+      "parentId": 0,
+      "children": [],
+      "url": "/openscreen",
+      "length": "320,271",
+      "wide": "590,74",
+      "value": "1",
+      "label": "开机屏幕",
+      "parentName": null,
+      "articles": null,
+      "test": false,
+      "img": "static/img/2021-05-19/jpg/开机.jpg" // 背景图
+    },
+    {
+      "id": 2,
+      "name": "首页",
+      "english_name": "home",
+      "description": "关于爱建",
+      "position": null,
+      "flag": 1,
+      "parentId": 0,
+      "children": [{
+          "id": 82,
+          "name": "百年大党-风华正茂",
+          "english_name": "M01",
+          "description": "",
+          "position": "M01", // 新增配置文件 标识机器
+          "flag": 0,
+          "parentId": 2,
+          "children": [
+            // 二级页面
+            {
+              "id": 83,
+              "name": "看党史",
+              "english_name": "kds",
+              "description": "",
+              "position": "/kds",
+              "flag": 1,
+              "parentId": 82,
+              "children": [],
+              "url": null,
+              "length": null,
+              "wide": null,
+              "value": "83",
+              "label": "看党史",
+              "parentName": null,
+              "articles": null,
+              "test": false,
+              "img": null
+            },
+            // 二级页面
+            {
+              "id": 83,
+              "name": "看党史",
+              "english_name": "kds",
+              "description": "",
+              "position": "/kds",
+              "flag": 1,
+              "parentId": 82,
+              "children": [],
+              "url": null,
+              "length": null,
+              "wide": null,
+              "value": "83",
+              "label": "看党史",
+              "parentName": null,
+              "articles": null,
+              "test": false,
+              "img": null
+            }
+          ],
+          "url": "/home",
+          "length": null,
+          "wide": null,
+          "value": "2",
+          "label": "首页",
+          "parentName": null,
+          "articles": null,
+          "test": false,
+          "img": "http://192.168.1.163/imageFile/2021-03-08/jpg/bannerb.jpg"
+        }
+
+      ]
+    }
+  ]
+}
