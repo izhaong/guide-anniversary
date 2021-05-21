@@ -6,3 +6,37 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
+// 行处理
+.line-1 {
+	-webkit-line-clamp: 1;
+}
+
+.line-2 {
+	-webkit-line-clamp: 2;
+}
+
+.line-3 {
+	-webkit-line-clamp: 3;
+}
+
+.line-4 {
+	-webkit-line-clamp: 4;
+}
+
+.line-5 {
+	-webkit-line-clamp: 5;
+}
+
+.line-1,
+.line-2,
+.line-3,
+.line-4,
+.line-5 {
+	overflow: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box; // 弹性伸缩盒
+	-webkit-box-orient: vertical; // 设置伸缩盒子元素排列方式
+}

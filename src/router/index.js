@@ -3,7 +3,7 @@
  * @Author: 仲灏<izhaong 164165005@qq.com>
  * @Date: 2021-05-17 09:56:13
  * @LastEditors: 仲灏<izhaong 164165005@qq.com>
- * @LastEditTime: 2021-05-18 17:20:33
+ * @LastEditTime: 2021-05-21 16:56:48
  */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -14,7 +14,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'startUp',
+    name: 'StartUp',
     component: StartUp
   },
   {
